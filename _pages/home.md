@@ -3,7 +3,7 @@ title: "Orthotron - Home"
 layout: default
 excerpt: "Orthotron at the University of Waterloo."
 sitemap: false
-permalink: /home/
+permalink: /
 ---
 
 The Orthopaedic Mechatronics (orthotron) Laboratory in the Mechanical & Mechatronics Dept. at the [University of Waterloo] (https://uwaterloo.ca/mechanical-mechatronics-engineering/) is focused on multidisciplinary approach to characterize orthopaedic interventions, ranging from novel implant designs for spine surgery to wearable sensors for musculoskeletal rehabilitation.  
