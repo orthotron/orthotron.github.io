@@ -24,10 +24,6 @@ github_username:  orthotron
 # Build settings
 markdown: kramdown
 theme: minima
-highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
 plugins:
   - jekyll-feed
 
