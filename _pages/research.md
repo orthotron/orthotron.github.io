@@ -1,6 +1,6 @@
 ---
 title: "Orthotron - Research"
-layout: textlay
+layout: default
 excerpt: "Orthotron -- Research"
 sitemap: false
 permalink: /research/
