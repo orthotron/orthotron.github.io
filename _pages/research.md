@@ -6,7 +6,7 @@ sitemap: false
 permalink: /research/
 ---
 
-# Research
+# ORTHOtron Research <img src="{{ site.url }}{{ site.baseurl }}/images/logo.png" style="width: 75px">
 
 Multi-axis joint loading simulator (blurb and picture)
 

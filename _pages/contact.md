@@ -6,7 +6,7 @@ sitemap: false
 permalink: /contact/
 ---
 
-# Open positions
+# Open positions <img src="{{ site.url }}{{ site.baseurl }}/images/logo.png" style="width: 75px">
 
 We are currently looking for new group members  with passion, talent, and grit! 
 
