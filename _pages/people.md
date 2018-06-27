@@ -6,12 +6,12 @@ sitemap: false
 permalink: /people/
 ---
 
-# ORTHOtron Team Members <img src="{{ site.url }}{{ site.baseurl }}/images/logo.png" style="width: 75px">
+# Team Members 
 
 
  **Current opportunities to join the team are listed here** [(see openings)]({{ site.url }}{{ site.baseurl }}/contact) ****
 
-## Staff
+## Principal Investigator
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
@@ -22,7 +22,7 @@ permalink: /people/
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" class="img-responsive" width="40%" style="float: left" />
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}<br>email: <{{ member.email }}></i>
   <ul style="overflow: hidden">

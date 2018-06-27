@@ -1,19 +1,40 @@
 ---
 title: "Orthotron - Research"
-layout: default
+layout: gridlay
 excerpt: "Orthotron -- Research"
 sitemap: false
 permalink: /research/
 ---
 
-# ORTHOtron Research <img src="{{ site.url }}{{ site.baseurl }}/images/logo.png" style="width: 75px">
+# Research Areas 
 
-Multi-axis joint loading simulator (blurb and picture)
+The Orthopaedic Mechatronics Laboratory conducts research aimed at characterization and optimization of biomechanical factors influencing the performance of orthopaedic interventions. Areas of current research interest include:
 
-Bone-Implant Mechanics
+{% assign number_printed = 0 %}
+{% for area in site.data.research %}
 
-Implant Design
+{% assign even_odd = number_printed | modulo: 2 %}
 
-Surgical Simulation & Navigation 
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
 
-Wearable Sensors + AI
+<div class="col-sm-6 clearfix">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/{{ area.photo }}" class="img-responsive" width="50%" style="float: left" />
+  <h4>{{ area.project }}</h4>
+  <i>{{ area.desc }}</i>
+
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
